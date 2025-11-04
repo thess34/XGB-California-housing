@@ -1,0 +1,7 @@
+params:
+  n_estimators: 250
+  learning_rate: 0.08
+  max_depth: 7
+  subsample: .8 # fraction of samples used per tree
+  colsample_bytree: .8 # fraction of features used per tree
+  objective: reg:squarederror
